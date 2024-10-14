@@ -7,7 +7,18 @@ module.exports = {
     './src-tauri/**/*.{rs}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        retrowave: {
+          bg: '#0a0a0a',
+          primary: '#ff00ff',  // Neon pink
+          secondary: '#00ffff', // Cyan
+          accent: '#ff9900',   // Orange
+          text: '#ffffff',     // White
+          'text-muted': '#b3b3b3', // Light gray
+        },
+      },
+    },
   },
   plugins: [],
 }
